@@ -13,9 +13,13 @@ export const splitArrayIntoChunks = (data: IData, parts = 1, callback: ICallback
 
   const length = data.length
   const chunkSize = Math.ceil(length / parts)
+  const split = []
 
   for (let index = 0; index < length; index += chunkSize) {
     const chunk = data.slice(index, index + chunkSize)
+    split.push(chunk)
     callback && callback(chunk)
   }
+
+  return split
 }
