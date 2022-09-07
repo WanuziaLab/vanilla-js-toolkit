@@ -20,5 +20,5 @@ npm run build
 ## Example
 
 ```bash
-node dist/examples/index.js
+npm run example
 ```

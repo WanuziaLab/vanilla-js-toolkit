@@ -1,4 +1,4 @@
-import { splitArrayIntoChunks } from '../helpers/array'
+import { splitArrayIntoChunks } from '../src/helpers/array'
 
 const data = [
   { name: 'A' },
