@@ -1,0 +1,22 @@
+{
+  "name": "@wlab/toolkit",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WanuziaLab/vanilla-js-toolkit.git"
+  },
+  "author": "Wanuzia Braga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WanuziaLab/vanilla-js-toolkit/issues"
+  },
+  "homepage": "https://github.com/WanuziaLab/vanilla-js-toolkit#readme"
+}

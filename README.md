@@ -1,1 +1,2 @@
-# vanilla-js-toolkit
+# Vanilla JS Toolkit
+
