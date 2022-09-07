@@ -1,13 +1,13 @@
-const isArray = value => Array.isArray(value)
-const isBoolean = value => typeof value === 'boolean'
-const isDate = value => value instanceof Date && value.toString() !== 'Invalid Date'
-const isFunction = value => typeof value === 'function'
-const isMap = value => value instanceof Map
-const isNumber = value => typeof value === 'number' && !Number.isNaN(value) && Number.isFinite(value)
-const isSet = value => value instanceof Set
-const isString = value => typeof value === 'string'
+export const isArray = value => Array.isArray(value)
+export const isBoolean = value => typeof value === 'boolean'
+export const isDate = value => value instanceof Date && value.toString() !== 'Invalid Date'
+export const isFunction = value => typeof value === 'function'
+export const isMap = value => value instanceof Map
+export const isNumber = value => typeof value === 'number' && !Number.isNaN(value) && Number.isFinite(value)
+export const isSet = value => value instanceof Set
+export const isString = value => typeof value === 'string'
 
-const isObject = value => {
+export const isObject = value => {
   if (
     value === null ||
     isArray(value) ||
@@ -21,7 +21,7 @@ const isObject = value => {
   return typeof value === 'object'
 }
 
-const isEmpty = value => {
+export const isEmpty = value => {
   if (value === undefined || value === null || Number.isNaN(value)) {
     return true;
   }
