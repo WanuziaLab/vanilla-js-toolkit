@@ -1,0 +1,31 @@
+{
+  "name": "@wlab/toolkit",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "rm -rf ./dist && ./node_modules/.bin/tsc",
+    "example": "./node_modules/.bin/ts-node ./example",
+    "lint": "./node_modules/.bin/eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WanuziaLab/vanilla-js-toolkit.git"
+  },
+  "author": "Wanuzia Braga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WanuziaLab/vanilla-js-toolkit/issues"
+  },
+  "homepage": "https://github.com/WanuziaLab/vanilla-js-toolkit#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.36.2",
+    "@typescript-eslint/parser": "5.36.2",
+    "eslint": "8.23.0",
+    "ts-node": "10.9.1",
+    "typescript": "4.8.2"
+  }
+}
